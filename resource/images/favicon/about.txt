@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Bai Jamjuree
+- Font Author: Copyright 2018 Bai Jamjuree (https://github.com/cadsondemak/Bai-Jamjuree)
+- Font Source: http://fonts.gstatic.com/s/baijamjuree/v11/LDI1apSCOBt_aeQQ7ftydoaMWcjKm7sp8g.ttf
+- Font License: SIL Open Font License, 1.1 (http://scripts.sil.org/OFL))

@@ -1,0 +1,89 @@
+body {
+  min-height: 100vh;
+  font-family: "TT Lakes Regular", Arial, sans-serif;
+  font-weight: Regular;
+}
+.wrapper{
+   width: 320px;
+   position: fixed;
+   left: 0;
+   top: 0;
+   height: 100%;
+   overflow-y:auto;
+}
+@font-face {
+  font-family: "TT Lakes Regular";
+  src: url("./resource/fonts/TTLakes/eot/TTLakes-Regular.eot");
+  src: url("TTLakes-Regular.eot?#iefix") format("embedded-opentype"),
+    url("./resource/fonts/TTLakes/woff/TTLakes-Regular.woff") format("woff"),
+    url("./resource/fonts/TTLakes/ttf/TTLakes-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+ul{
+   list-style: none;
+   font-size: 16px;
+   line-height: 24px;
+   margin: 0;
+   padding: 0;
+}
+li{
+   display: block;
+   padding: 24px 32px;
+}
+.btn{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   background-color: #FF3E79;
+   border: none;
+   cursor: pointer;
+}
+.nav_icon{
+   display: flex;
+   margin-left: 24px;
+   padding: 16px;
+   justify-content: space-around;
+}
+.menu{
+   display: flex;
+   margin-left: 24px;
+   margin-top: 22px;
+   gap:16px;
+}
+.mail{
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   line-height: 24px;
+    margin-left: 24px;
+    margin-top: 16px;
+}
+.tele{
+   display: block;
+   text-transform: uppercase;
+   font-weight: bolder;
+   text-decoration: none;
+   color: black;
+   font-size: 24px;
+   line-height: 32px;
+   margin-left: 24px;
+}
+.search{
+     display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.nav{
+     display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+}
+.btn:hover {
+  filter: brightness(80%);
+  opacity: 0.8;
+  transition: opacity 0.2s ease, filter 0.2s ease;
+}
