@@ -31,6 +31,16 @@ li{
    display: block;
    padding: 24px 32px;
 }
+a{
+   text-decoration: none;
+   color: black;
+}
+.logo{
+   background-image: url("./img/logo.svg")center center/cover no-repeat;
+   background-color:grey;
+   width: 97px;
+   height: 51px;
+}
 .btn{
    display: flex;
    align-items: center;
@@ -86,4 +96,7 @@ li{
   filter: brightness(80%);
   opacity: 0.8;
   transition: opacity 0.2s ease, filter 0.2s ease;
+}
+.radio{
+   display: flex;
 }
